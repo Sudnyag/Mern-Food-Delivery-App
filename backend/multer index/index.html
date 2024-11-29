@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Item Upload</title>
+</head>
+<body>
+    <form action="http://localhost:5000/foodapp/uploads" method="post" enctype="multipart/form-data">
+        <label>Food Category:</label><input type="text" name="txtCategory" required><br>
+        <label>Food Name:</label><input type="text" name="txtname" required><br>
+        <label>Food Price:</label><input type="text" name="txtprice" required><br>
+        <label>Food Description:</label><input type="text" name="txtdesc"><br>
+        <label>Food Quantity:</label><input type="text" name="txtquantity"><br>
+        
+        <label>Photo:</label><input type="file" name="image" accept="image/*" required><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

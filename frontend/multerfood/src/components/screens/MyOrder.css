@@ -1,0 +1,81 @@
+/* Main container for the entire MyOrders section */
+.my-orders {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.my-orders h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the orders list */
+.orders-list {
+  margin-top: 20px;
+}
+
+/* Individual order item styling */
+.order-item {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect on order items */
+.order-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the food name */
+.order-item h5 {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Styling for the text inside each order item */
+.order-item p {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #555;
+}
+
+/* Bold label for Price, Quantity, and Subtotal */
+.order-item p strong {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Styling for the 'No Orders' message */
+.no-orders {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 50px;
+}
+
+/* Thank you message styling */
+.thank-you {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.25rem;
+  color: #4caf50;
+}
+
+.thank-you p {
+  font-weight: bold;
+  margin-top: 15px;
+}
